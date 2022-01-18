@@ -1,0 +1,14 @@
+{
+  "name": "practice-cypress-cookies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Eduard Bardají Puig <ebardaji@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "NODE_OPTIONS=--openssl-legacy-provider cypress open"
+  },
+  "dependencies": {
+    "cypress": "9.2.1"
+  }
+}
